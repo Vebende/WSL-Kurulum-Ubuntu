@@ -251,6 +251,16 @@ Ağ geçidi ve DNS ayarlarını görüntülemek için:
 cat /etc/resolv.conf
 ```
 
+```bash
+ping google.com
+```
+
+Eğer google.com ping atılamıyorsa:
+
+```bash
+echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+```
+
 veya ağ yapılandırma dosyalarını kontrol edebilirsiniz:
 
 ```bash
