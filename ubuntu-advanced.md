@@ -1,4 +1,4 @@
-## İşletim sistemi bilgilerinin alınması
+# İşletim Sistemi Bilgilerinin Alınması
 ```bash
 sudo cat /etc/os-release
 ```
