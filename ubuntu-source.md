@@ -1,5 +1,5 @@
 ## İşletim sistemi bilgilerinin alınması
-sudo cat /etc/os-release
+**sudo cat /etc/os-release**
 
 Aşağıda verdiğiniz Ubuntu bilgilerini Markdown formatında düzenledim:
 
@@ -21,7 +21,7 @@ Aşağıda verdiğiniz Ubuntu bilgilerini Markdown formatında düzenledim:
 ```
 
 ## CPU bilgilerinin alınması
-sudo cat /proc/cpuinfo
+**sudo cat /proc/cpuinfo**
 
 ```markdown
 # CPU Bilgileri
